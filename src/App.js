@@ -31,6 +31,7 @@ class App extends Component{
     return(
       <React.Fragment>
 				<h1>Let's Order Something! Please Vote!!</h1>
+				<h2>Application is in progress</h2>
 				<div className="languages">
 					{
 						this.state.languages.map((lang, i) => 
